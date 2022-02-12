@@ -38,10 +38,16 @@ body{
 }
 
 #table1{
-    width: 70%;
-    border: 1px solid black;
-    
+    border: none;
+    width: fit-content;
 }
+
+.table2{
+    border: 1px solid black;
+    width: 50%;
+    border-collapse: collapse;
+}
+
 
 .responsive{
     height: 100%;
@@ -49,3 +55,6 @@ body{
     border-radius: 25px;
 }
 
+.red-star {
+    color: red;
+}
